@@ -1,1 +1,1 @@
-compile: `$ cc -std=c99 -Wall fau.c -o _fau`
+compile: `$ cc -std=c99 -Wall fau.c mpc/mpc.c -ledit -lm -o _fau`
